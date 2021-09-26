@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/article-preview/static/css/main.846e2245.chunk.css",
+    "main.css": "/article-preview/static/css/main.a332abd2.chunk.css",
     "main.js": "/article-preview/static/js/main.4776ad25.chunk.js",
     "main.js.map": "/article-preview/static/js/main.4776ad25.chunk.js.map",
     "runtime-main.js": "/article-preview/static/js/runtime-main.834326f9.js",
@@ -10,7 +10,7 @@
     "static/js/3.76d6b830.chunk.js": "/article-preview/static/js/3.76d6b830.chunk.js",
     "static/js/3.76d6b830.chunk.js.map": "/article-preview/static/js/3.76d6b830.chunk.js.map",
     "index.html": "/article-preview/index.html",
-    "static/css/main.846e2245.chunk.css.map": "/article-preview/static/css/main.846e2245.chunk.css.map",
+    "static/css/main.a332abd2.chunk.css.map": "/article-preview/static/css/main.a332abd2.chunk.css.map",
     "static/js/2.5d983777.chunk.js.LICENSE.txt": "/article-preview/static/js/2.5d983777.chunk.js.LICENSE.txt",
     "static/media/drawers.631135b0.jpg": "/article-preview/static/media/drawers.631135b0.jpg",
     "static/media/icon-facebook.1e9b3338.svg": "/article-preview/static/media/icon-facebook.1e9b3338.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.834326f9.js",
     "static/js/2.5d983777.chunk.js",
-    "static/css/main.846e2245.chunk.css",
+    "static/css/main.a332abd2.chunk.css",
     "static/js/main.4776ad25.chunk.js"
   ]
 }
