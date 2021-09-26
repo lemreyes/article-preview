@@ -1,6 +1,6 @@
 .bar {
   display: flex;
-  opacity: 0%;
+  opacity: 0;
   align-items: center;
   align-content: flex-start;
   color: hsl(210, 46%, 95%);
@@ -23,12 +23,12 @@
 }
 @keyframes FadeIn {
   0% {
-    opacity: 0%;
+    opacity: 0;
   }
 
   100% {
     visibility: visible;
-    opacity: 100%;
+    opacity: 1;
   }
 }
 
@@ -39,11 +39,11 @@
 }
 @keyframes FadeOut {
   0% {
-    opacity: 100%;
+    opacity: 1;
   }
 
   100% {
-    opacity: 0%;
+    opacity: 0;
     visibility: hidden;
   }
 }
