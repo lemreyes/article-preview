@@ -26,7 +26,7 @@ const ArticlePreview = (props) => {
     shareIconFill = "#FFFFFF";
     shareIconStyle = `${classes.popupParent} ${classes.popupParentClicked}`;
   } else{
-    shareIconFill = "#6E8098"
+    shareIconFill = "#6E8098";
     shareIconStyle = `${classes.popupParent}`;
   }
 
