@@ -1,0 +1,90 @@
+.bar {
+  display: flex;
+  opacity: 0%;
+  align-items: center;
+  align-content: flex-start;
+  color: hsl(210, 46%, 95%);
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: hsl(217, 19%, 35%);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  z-index: 1;
+}
+
+.barDisplay {
+  animation-name: FadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes FadeIn {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 100%;
+  }
+}
+
+.barNondisplay {
+  animation-name: FadeOut;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes FadeOut {
+  0% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 0%;
+    visibility: hidden;
+  }
+}
+
+.share {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: 2rem;
+}
+
+.icon {
+  margin-left: 20px;
+}
+
+.triangle {
+  display: none;
+}
+
+@media only screen and (min-width: 730px) {
+  .bar {
+    position: absolute;
+    bottom: 70px;
+    width: 250px;
+    border-radius: 20px;
+    align-items: center;
+    transform: translateX(105%);
+  }
+
+  .triangle {
+    position: absolute;
+    display: initial;
+    top: 60px;
+    right: 104px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid hsl(217, 19%, 35%);
+  }
+
+  .icon {
+    margin-left: 20px;
+  }
+}
