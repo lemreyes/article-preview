@@ -30,6 +30,9 @@ const ArticlePreview = (props) => {
     shareIconStyle = `${classes.popupParent}`;
   }
 
+  console.log("ArticlePreview isShareBar: " + isShareBar);
+  console.log("ArticlePreview shareIconStyle: " + shareIconStyle);
+
   return (
     <Card>
       <img src={drawerImg} className={classes["article-img"]} alt="drawers" />

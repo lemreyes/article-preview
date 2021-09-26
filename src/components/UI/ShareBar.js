@@ -9,6 +9,8 @@ import twitterIcon from "./../../images/icon-twitter.svg";
 const ShareBar = (props) => {
   let barStyle = "";
 
+  console.log("ShareBar props.isDisplayBar: " + props.isDisplayBar);
+
   if (props.isDisplayBar === 'unclicked') {
     barStyle = `${classes.bar}`;
   } else if (props.isDisplayBar === 'shown') {
@@ -16,6 +18,8 @@ const ShareBar = (props) => {
   } else {
     barStyle = `${classes.bar} ${classes.barNondisplay}`;
   }
+
+  console.log("ShareBar barStyle: " + barStyle);
 
   return (
     <div className={barStyle}>
