@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/lemreyes/article-preview](https://github.com/lemreyes/article-preview)
+- Live Site URL: [https://lemreyes.github.io/article-preview/](https://lemreyes.github.io/article-preview/)
 
 ## My process
 
